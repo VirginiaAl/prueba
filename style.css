@@ -1,0 +1,58 @@
+body {
+  background-image: url("univ.png");
+  background-size: cover;
+  /* filter: brightness(190%); */
+  font-size: 40px;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  height: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  margin-top: 50px;
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(rgb(85, 242, 214), rgb(7, 141, 207));
+  opacity: 0.9;
+  border-radius: 50px;
+  box-shadow: 10px 10px rgba(122, 127, 129, 0.76);
+}
+
+#search {
+  width: 280px;
+  height: 40px;
+  border-radius: 5px solid;
+}
+
+#button {
+  width: 100px;
+  height: 45px;
+  background-color: rgb(68, 116, 173);
+  border-radius: 12px;
+}
+
+#button:hover {
+  background-color: rgb(19, 207, 178);
+
+}
+
+h3, p, img {
+  padding-left: 100px;
+}
+
+#icon {
+  width: 75px;
+  height: 75px;
+}
