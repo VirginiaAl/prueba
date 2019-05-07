@@ -2,7 +2,7 @@ body {
   background-image: url("univ.png");
   background-size: cover;
   /* filter: brightness(190%); */
-  font-size: 40px;
+  font-size: 20px;
   font-family: fantasy;
   font-weight: bold;
 }
